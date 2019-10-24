@@ -1,0 +1,19 @@
+{
+  "name": "@zalab-inc/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  }
+}
